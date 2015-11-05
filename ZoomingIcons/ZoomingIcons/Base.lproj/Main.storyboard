@@ -140,16 +140,16 @@
                                             <constraint firstAttribute="width" constant="300" id="SbX-sC-fE9"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqw-7F-p3U">
-                                        <rect key="frame" x="264" y="420" width="73" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqw-7F-p3U">
+                                        <rect key="frame" x="264" y="424" width="73" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAz-gn-ITF">
-                                        <rect key="frame" x="256" y="472" width="88" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAz-gn-ITF">
+                                        <rect key="frame" x="30" y="476" width="540" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYl-gx-GdV">
@@ -165,9 +165,11 @@
                                 <constraints>
                                     <constraint firstItem="EYl-gx-GdV" firstAttribute="top" secondItem="Vjc-Rw-gms" secondAttribute="top" constant="15" id="9Be-Yw-zPe"/>
                                     <constraint firstItem="Oqw-7F-p3U" firstAttribute="centerX" secondItem="g12-gH-AsE" secondAttribute="centerX" id="B7g-7g-JSw"/>
-                                    <constraint firstItem="Oqw-7F-p3U" firstAttribute="top" secondItem="g12-gH-AsE" secondAttribute="bottom" constant="35" id="CDO-o8-uT0"/>
+                                    <constraint firstItem="Oqw-7F-p3U" firstAttribute="top" secondItem="g12-gH-AsE" secondAttribute="bottom" constant="39" id="CDO-o8-uT0"/>
+                                    <constraint firstItem="fAz-gn-ITF" firstAttribute="leading" secondItem="Vjc-Rw-gms" secondAttribute="leading" constant="30" id="IEZ-GN-Xz7"/>
                                     <constraint firstItem="g12-gH-AsE" firstAttribute="leading" secondItem="Vjc-Rw-gms" secondAttribute="leading" constant="138" id="LNK-lr-Jhq"/>
                                     <constraint firstItem="fAz-gn-ITF" firstAttribute="centerX" secondItem="Oqw-7F-p3U" secondAttribute="centerX" id="NKp-95-hll"/>
+                                    <constraint firstAttribute="trailing" secondItem="fAz-gn-ITF" secondAttribute="trailing" constant="30" id="OGr-Ht-bk3"/>
                                     <constraint firstItem="fAz-gn-ITF" firstAttribute="top" secondItem="Oqw-7F-p3U" secondAttribute="bottom" constant="31" id="PY9-Ah-Tp8"/>
                                     <constraint firstItem="g12-gH-AsE" firstAttribute="centerX" secondItem="Vjc-Rw-gms" secondAttribute="centerX" id="cHG-oq-UJO"/>
                                     <constraint firstAttribute="trailing" secondItem="g12-gH-AsE" secondAttribute="trailing" constant="162" id="hAa-dW-mdS"/>
@@ -213,10 +215,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
+                        <outlet property="delegate" destination="YMN-rB-r4o" id="WQx-zW-VV4"/>
                         <segue destination="b9J-il-KGa" kind="relationship" relationship="rootViewController" id="TQ6-qa-fkn"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5o-dW-ckJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="YMN-rB-r4o" customClass="ZoomingIconTransition" customModule="ZoomingIcons" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="1138" y="337"/>
         </scene>

@@ -107,6 +107,13 @@ class MenuViewController: UICollectionViewController, UICollectionViewDelegateFl
     }
 
     
+// IF I don't want to do a stupid, convoluted transition, use this method!
+//    func switchScreen() {
+//        let tvc = self.storyboard?.instantiateViewControllerWithIdentifier("DetailView") as! DetailViewController
+//        UIView.transitionFromView(self.view, toView: tvc.view, duration: 3, options: UIViewAnimationOptions.TransitionCrossDissolve) { (isFinished) -> Void in
+//            self.navigationController?.pushViewController(tvc, animated: true)
+//        }
+//    }
     
     
     
