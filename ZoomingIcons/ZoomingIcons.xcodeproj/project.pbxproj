@@ -16,6 +16,8 @@
 		067FE4331BEBBEA2009CCFA7 /* ZoomingIconsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4321BEBBEA2009CCFA7 /* ZoomingIconsUITests.swift */; };
 		067FE4411BEBBEF9009CCFA7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4401BEBBEF9009CCFA7 /* MenuViewController.swift */; };
 		067FE4431BEBC313009CCFA7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4421BEBC313009CCFA7 /* CollectionViewCell.swift */; };
+		067FE4451BEBE16E009CCFA7 /* SocialItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4441BEBE16E009CCFA7 /* SocialItem.swift */; };
+		067FE4471BEBF281009CCFA7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067FE4461BEBF281009CCFA7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		067FE4341BEBBEA2009CCFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067FE4401BEBBEF9009CCFA7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		067FE4421BEBC313009CCFA7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		067FE4441BEBE16E009CCFA7 /* SocialItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialItem.swift; sourceTree = "<group>"; };
+		067FE4461BEBF281009CCFA7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +108,9 @@
 				067FE4121BEBBEA1009CCFA7 /* AppDelegate.swift */,
 				067FE4141BEBBEA1009CCFA7 /* ViewController.swift */,
 				067FE4161BEBBEA1009CCFA7 /* Main.storyboard */,
+				067FE4461BEBF281009CCFA7 /* DetailViewController.swift */,
 				067FE4421BEBC313009CCFA7 /* CollectionViewCell.swift */,
+				067FE4441BEBE16E009CCFA7 /* SocialItem.swift */,
 				067FE4401BEBBEF9009CCFA7 /* MenuViewController.swift */,
 				067FE4191BEBBEA1009CCFA7 /* Assets.xcassets */,
 				067FE41B1BEBBEA1009CCFA7 /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				067FE4451BEBE16E009CCFA7 /* SocialItem.swift in Sources */,
 				067FE4151BEBBEA1009CCFA7 /* ViewController.swift in Sources */,
 				067FE4411BEBBEF9009CCFA7 /* MenuViewController.swift in Sources */,
+				067FE4471BEBF281009CCFA7 /* DetailViewController.swift in Sources */,
 				067FE4431BEBC313009CCFA7 /* CollectionViewCell.swift in Sources */,
 				067FE4131BEBBEA1009CCFA7 /* AppDelegate.swift in Sources */,
 			);
